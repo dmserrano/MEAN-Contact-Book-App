@@ -9,5 +9,4 @@ const router = Router();
 //Routes
 /////////////////////////////////////////
 
-
 module.exports = router;
