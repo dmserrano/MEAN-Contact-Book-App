@@ -1,0 +1,33 @@
+{
+  "name": "contact-mean",
+  "version": "1.0.0",
+  "description": "A contact app made with the MEAN stack",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominicSerranoC14/MEAN-Contact-Book-App.git"
+  },
+  "keywords": [
+    "Mongodb",
+    "Express",
+    "Angular",
+    "Nodejs"
+  ],
+  "author": "Dominic Serrano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominicSerranoC14/MEAN-Contact-Book-App/issues"
+  },
+  "homepage": "https://github.com/DominicSerranoC14/MEAN-Contact-Book-App#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}

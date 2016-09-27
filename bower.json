@@ -1,0 +1,28 @@
+{
+  "name": "contact-mean",
+  "description": "A contact app made with the MEAN stack",
+  "main": "server/server.js",
+  "authors": [
+    "Dominic Serrano"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Mongodb",
+    "Express",
+    "Angular",
+    "Nodejs"
+  ],
+  "homepage": "https://github.com/DominicSerranoC14/MEAN-Contact-Book-App",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

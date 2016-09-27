@@ -1,0 +1,9 @@
+'use strict';
+
+/////////////////////////////////////////
+app.controller('MainCtrl', function($scope, $http) {
+
+  console.log("MainCtrl is working");
+
+});
+/////////////////////////////////////////
