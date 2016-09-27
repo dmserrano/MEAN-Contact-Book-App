@@ -10,13 +10,15 @@ This app utilizes the MEAN stack (MongoDB, ExpressJs, AngularJs, NodeJs), a Java
 
 
 ### Technologies Used
-- Nodejs v6.5.0
-- Express v4.14.0
-- Gulp v3.9.1
-- Gulp-sass v2.3.2
-- Gulp-sourcemaps v1.6.0
-- Gulp-watch v4.3.10
 - MongoDB v3.2.9
 - Mongoose v4.6.1
+- Express v4.14.0
+- Angular v1.5.8
+- Angular-route v1.5.8
 - Bower v1.7.9
+- Nodejs v6.5.0
+- Gulp v3.9.1
+- Gulp-sass v2.3.2
+- Gulp-watch v4.3.10
 - Gulp-nodemon v2.2.0
+- Gulp-sourcemaps v1.6.0
