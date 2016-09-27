@@ -5,6 +5,7 @@ const app = express();
 const { json } = require('body-parser');
 const { connect } = require('./db/database');
 const port = process.env.PORT || 3000;
+const routes = require('./routes/');
 app.set('port', port);
 /////////////////////////////////////////
 
@@ -15,6 +16,7 @@ app.use(express.static('client'));
 app.use(json());
 
 //Routes
+app.use(routes);
 /////////////////////////////////////////
 
 
