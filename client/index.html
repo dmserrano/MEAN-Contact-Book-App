@@ -3,10 +3,12 @@
 <head>
 <meta charset="utf-8">
   <link rel="stylesheet" href="/styles/css/main.css">
+  <link rel="stylesheet" href="/styles/css/contactCard.css">
 </head>
 
 <body ng-app="ContactApp">
 
+  <div ng-include="'partials/nav.html'"></div>
 
   <div ng-view></div>
 
@@ -18,9 +20,8 @@
   <script src="/app/app.js"></script>
 
   <!--  Controllers  -->
-  <script src="/controllers/main.js">
-
-  </script>
+  <script src="/controllers/main.js"></script>
+  <script src="/controllers/newContact.js"></script>
 
 </body>
 </html>

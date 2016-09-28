@@ -1,16 +1,15 @@
 <h1>Add Contact</h1>
 
 
-<div class="contact-card">
-  <form ng-submit="addContact()">
-    <p>Name</p>
-    <p><input type="text" ng-model='name' placeholder="John Doe"/></p>
-    <p>Address</p>
-    <p><input type="text" ng-model='address' placeholder="115 Some Street"/></p>
-    <p>Phone Number</p>
-    <p><input type="tel" ng-model='phone' placeholder="1-615-123-4567"/></p>
-    <p>Email</p>
-    <p><input type="mail" ng-model='email' placeholder="example@this.com"/></p>
-    <input type="submit" value="Create"/>
-  </form>
+<div class="new-contact-div">
+  <p>Name</p>
+  <p><input type="text" ng-model='name' placeholder="John Doe"/></p>
+  <p>Address</p>
+  <p><input type="text" ng-model='address' placeholder="115 Some Street"/></p>
+  <p>Phone Number</p>
+  <p><input type="tel" ng-model='phone' placeholder="1-615-123-4567"/></p>
+  <p>Email</p>
+  <p><input type="mail" ng-model='email' placeholder="example@this.com"/></p>
+  <input class="create-button" type="submit" value="Create"/>
+  <input class="clear-button" type="submit" value="Clear"/>
 </div>
