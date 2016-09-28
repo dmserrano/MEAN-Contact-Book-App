@@ -9,6 +9,11 @@ const app = angular.module('ContactApp', ['ngRoute'])
     controller: 'MainCtrl',
     templateUrl: 'partials/main.html'
   })
+  .when('/contact/new', {
+    controller: 'NewContactCtrl',
+    templateUrl: 'partials/newContact.html'
+  })
+  .otherwise('/');
 
 });
 /////////////////////////////////////////
